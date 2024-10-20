@@ -17,12 +17,12 @@ html {
 }
 
 .date {
-    color: rgb(50, 135, 161);
-    font-size: 10px;
+    color: rgb(13, 54, 66);
+    font-size: 15px;
 }
 
 .deleted {
-    color: crimson;
+    color: rgb(68, 8, 20);
     font-weight: bold;
     font-size: 7px;
 }
