@@ -16,6 +16,15 @@ html {
     box-shadow: 5px;
 }
 
+.date {
+    color: rgb(50, 135, 161);
+}
+
+.deleted {
+    color: crimson;
+    font-weight: bold;
+}
+
 #toppage {
     background-size: cover;
     background-repeat: no-repeat;
