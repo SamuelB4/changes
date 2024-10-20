@@ -58,3 +58,7 @@ html {
         background: linear-gradient(to bottom right, rgb(201, 104, 66), rgb(94, 41, 17)) no-repeat;
         display: inline-block;
     }
+
+    body {
+        margin: 0!important;
+      }
