@@ -73,3 +73,14 @@ html {
     body {
         margin: 0!important;
       }
+
+      #bottomPage {
+        background-color: rgb(24, 24, 24);
+        height: 50px;
+        width: 100%;
+    }
+    
+    #sourceCode {
+        color: grey;
+        font-size: 15px;
+    }
