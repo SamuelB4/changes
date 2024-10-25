@@ -21,11 +21,15 @@ html {
 
 .date {
     color: rgb(13, 54, 66);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .big {
     font-size: 12px;
+}
+
+.medium {
+    font-size: 14px;
 }
 
 .deleted {
@@ -37,13 +41,13 @@ html {
 .container {
     width: 100%;
     height: 200px;
-    display: flex;
+    float: left;
   }
 
   #toppane {
     width: 100%;
-    height: 200px;
-    background: linear-gradient(to bottom right, rgb(91, 138, 105), rgb(42, 60, 83)) no-repeat;
+    height: 144px;
+    background: linear-gradient(to top left, #507a64, rgb(42, 60, 83)) no-repeat;
 
     #links {
         background-size: cover;
@@ -53,20 +57,35 @@ html {
         border-radius: 10px;
         height: 50px;
     }
+
+    #line {
+        width: 100%;
+        height: 5px;
+        background-color: black;
+        display: inline-block;
+        opacity: 50%;
+    }
     } 
 
-    .section {
+    .sectionA {
+        width: 32%;
+        height: 175px;
+        background: linear-gradient(to bottom right, rgb(201, 104, 66), rgb(94, 41, 17)) no-repeat;
+        float: left;
+    }
+
+    .sectionB {
         width: 33%;
         height: 175px;
         background: linear-gradient(to bottom right, rgb(201, 104, 66), rgb(94, 41, 17)) no-repeat;
         display: inline-block;
     }
 
-    .sectionA {
-        width: 34%;
+    .sectionC {
+        width: 32%;
         height: 175px;
         background: linear-gradient(to bottom right, rgb(201, 104, 66), rgb(94, 41, 17)) no-repeat;
-        display: inline-block;
+        float: right;
     }
 
     body {
@@ -77,6 +96,7 @@ html {
         background-color: rgb(24, 24, 24);
         height: 50px;
         width: 100%;
+        display: inline-block;
     }
     
     #sourceCode {
